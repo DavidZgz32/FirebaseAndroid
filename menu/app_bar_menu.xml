@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Perfil"
+        android:icon="@mipmap/profile_dark"
+        app:showAsAction="always"
+
+        />
+
+
+    <item
+        android:id="@+id/action_messages"
+        android:title="Mensajes"
+        android:icon="@mipmap/messages"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_filter"
+        android:title="Filtro"
+        android:icon="@mipmap/filter"
+        app:showAsAction="always"/>
+
+</menu>
